@@ -1,13 +1,20 @@
 import React from "react";
+import styled from 'styled-components';
+
+const HeaderStyle = styled.h2 `
+color: green;
+`;
 
 
 
 function Header(props) {
-return(
+
+    return(
     <div className="header">
-        <p className="header-text">{props.title}</p>
+    <HeaderStyle>{props.title}</HeaderStyle>
+        <p className="header-text"></p>
         <p>{props.date}</p>
-        <p></p>
+        
     </div>
 )
 }
