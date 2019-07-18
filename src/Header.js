@@ -2,10 +2,12 @@ import React from "react";
 
 
 
-function Header() {
+function Header(props) {
 return(
     <div className="header">
-        <p className="header-text">SPACE PHOTO OF THE DAY</p>
+        <p className="header-text">{props.title}</p>
+        <p>{props.date}</p>
+        <p></p>
     </div>
 )
 }
