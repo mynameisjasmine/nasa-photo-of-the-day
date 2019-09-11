@@ -31,3 +31,10 @@
     transform: rotate(360deg);
   }
 }
+
+.display-card img {
+  width: 60%;
+  height: 850px;
+  margin-left: 19rem;
+  border-radius: 2rem;
+}

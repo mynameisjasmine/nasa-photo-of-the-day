@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       <Logo />
       
-        <h1>DAILY SPACE PHOTO</h1>
+        <h1>NASA DAILY SPACE PHOTO</h1>
 
       
       <Header
@@ -33,7 +33,7 @@ function App() {
 
       <DisplayCard
 
-        pic={nasa.url}
+        pic={nasa.hdurl}
         description={nasa.explanation} 
         />
 
