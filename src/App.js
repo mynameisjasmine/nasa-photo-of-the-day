@@ -33,7 +33,7 @@ function App() {
 
       <DisplayCard
 
-        pic={nasa.hdurl}
+        pic={nasa.url}
         description={nasa.explanation} 
         />
 

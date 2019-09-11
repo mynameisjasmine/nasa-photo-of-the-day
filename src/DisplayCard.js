@@ -7,7 +7,6 @@ const DispayStyle = styled.p `
  margin-left: 60px;
  margin-right: 60px
  
-
 `
 
 
