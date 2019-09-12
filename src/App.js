@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       <Logo />
       
-        <h1>DAILY SPACE PHOTO</h1>
+        <h1>NASA DAILY SPACE PHOTO</h1>
 
       
       <Header

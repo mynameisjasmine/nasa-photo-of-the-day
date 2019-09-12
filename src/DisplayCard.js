@@ -7,7 +7,6 @@ const DispayStyle = styled.p `
  margin-left: 60px;
  margin-right: 60px
  
-
 `
 
 
@@ -16,8 +15,8 @@ function DisplayCard(props) {
     return(
     <div className="display-card">
     
+       <img src={props.pic} alt="daily image"/>
        
-       <p>{props.pic}</p>
        <DispayStyle>{props.description}</DispayStyle>
        
         

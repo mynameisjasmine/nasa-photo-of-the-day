@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 
 
@@ -6,7 +6,7 @@ function Logo() {
     return(
         
         <div>
-      <img className="rocket-pic" src="./images/rocket.png" alt="rocket" />
+      <img className="rocket-pic" src="../images/rocket.png" alt="rocket" />
         </div>
     
         
